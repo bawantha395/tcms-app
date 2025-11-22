@@ -1297,7 +1297,6 @@ const StudentDashboard = ({ onLogout }) => {
           
           <div className="relative flex flex-col sm:flex-row items-center sm:items-start gap-4">
             <div className="bg-white/30 backdrop-blur-md w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold shadow-xl border-2 border-white/40">
-
               {getInitials(studentProfile?.first_name || currentStudent.firstName, studentProfile?.last_name || currentStudent.lastName)}
             </div>
             <div className="flex-1 text-center sm:text-left">
