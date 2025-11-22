@@ -1,4 +1,4 @@
-﻿import React, {useEffect, useMemo, useRef, useState, useCallback} from "react";
+import React, {useEffect, useMemo, useRef, useState, useCallback} from "react";
 
 import {FaLock, FaLockOpen, FaSignOutAlt, FaBarcode, FaUserPlus,FaMoneyBill, FaHistory, FaFileInvoice,FaStickyNote,
   FaSearch, FaCamera, FaUser, FaPhone, FaGraduationCap, FaClock, FaExclamationTriangle, FaCheckCircle, FaEdit, FaPlus, FaTicketAlt, FaArrowRight, FaCalculator, FaCoins} from "react-icons/fa";

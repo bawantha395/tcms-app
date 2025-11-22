@@ -363,6 +363,7 @@ volumes:
   teacher_mysql_data:
   attendance-db-data:
   payment_mysql_data:
+  rbac_mysql_data:
 
 networks:
   auth-network:
@@ -378,4 +379,6 @@ networks:
   attendance-network:
     driver: bridge
   payment-network:
+    driver: bridge
+  rbac-network:
     driver: bridge
